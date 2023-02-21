@@ -1,17 +1,17 @@
-import { Component } from "react";
+import { Component } from 'react';
 
-class Display extends Component{
-    constructor(){
-        super();
-        this.state = {};
-    }
+class Display extends Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
 
-    render(){
-        return(
-            <div className="displayscreen-count-section">
-            <input type="text" className="display-screen" />
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="displayscreen-count-section">
+        <input type="text" className="display-screen" />
+      </div>
+    );
+  }
 }
-export default Display
+export default Display;

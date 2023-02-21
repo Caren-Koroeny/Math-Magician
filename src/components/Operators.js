@@ -1,22 +1,19 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class Operators extends Component {
   constructor(props) {
-    super(props)
-  
+    super(props);
+
     this.state = {
-       
-    }
+
+    };
   }
-  
+
   render() {
     return (
-      <div>
-        
-      </div>
-    )
+      <div />
+    );
   }
 }
 
-export default Operators
-
+export default Operators;
