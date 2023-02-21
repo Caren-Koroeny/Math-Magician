@@ -11,7 +11,17 @@ class Operators extends Component {
 
   render() {
     return (
-      <div />
+      <div className="operators">
+        <button type="button" className="btn btn-top">AC</button>
+        <button type="button" className="btn btn-top">+/-</button>
+        <button type="button" className="btn btn-top">%</button>
+        <button type="button" className="btn btn-side">/</button>
+        <button type="button" className="btn btn-side">x</button>
+        <button type="button" className="btn btn-side">-</button>
+        <button type="button" className="btn btn-side">+</button>
+        <button type="button" className="btn btn-side">=</button>
+      </div>
+
     );
   }
 }
