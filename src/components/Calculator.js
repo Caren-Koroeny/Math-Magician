@@ -1,6 +1,7 @@
 import Display from './Display';
 import NumbersKeys from './NumbersKeys';
 import Operators from './Operators';
+import '../styles/Calculator.css';
 
 const Calculator = () => (
   <div className="mainContainer">
