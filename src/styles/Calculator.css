@@ -3,7 +3,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -25,9 +25,7 @@
   max-inline-size: 22rem;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow:
-    0 3px 6px 0 rgba(0, 0, 0, 0.6)
-    0 2px 6px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.6);
 }
 
 /* Display.js */
@@ -84,4 +82,3 @@
 .col-span-2 {
   grid-column: 1 / 3;
 }
-
