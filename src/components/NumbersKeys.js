@@ -1,8 +1,8 @@
+// snippet rce
 import React, { Component } from 'react'
-import Display from './Display';
-import NumbersKeys from './NumbersKeys';
-import Operators from './Operators';
-class calculator extends Component {
+
+class NumbersKeys extends Component {
+    // snippet rconst
     constructor(props) {
       super(props)
     
@@ -20,4 +20,4 @@ class calculator extends Component {
   }
 }
 
-export default calculator
+export default NumbersKeys

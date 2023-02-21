@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class UiScreen extends Component{
+class Display extends Component{
     constructor(){
         super();
         this.state = {};
@@ -9,9 +9,9 @@ class UiScreen extends Component{
     render(){
         return(
             <div className="displayscreen-count-section">
-            <input type="text" className="display" />
+            <input type="text" className="display-screen" />
             </div>
         );
     }
 }
-export default UiScreen;
+export default Display
