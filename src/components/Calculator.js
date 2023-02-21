@@ -1,25 +1,15 @@
-import React, { Component } from 'react';
 import Display from './Display';
 import NumbersKeys from './NumbersKeys';
 import Operators from './Operators';
 
-class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+const Calculator = () => (
+  <div className="mainContainer">
+    {/* add child Components */}
+    <Display />
+    <NumbersKeys />
+    <Operators />
 
-  render() {
-    return (
-      <div className="mainContainer">
-        {/* add child Components */}
-        <Display />
-        <NumbersKeys />
-        <Operators />
-
-      </div>
-    );
-  }
-}
+  </div>
+);
 
 export default Calculator;
