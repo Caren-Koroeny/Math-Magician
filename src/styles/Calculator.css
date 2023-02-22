@@ -21,7 +21,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-template-rows: repeat(5, minmax(0, 1fr));
+  grid-template-rows: repeat(6, minmax(0, 1fr));
   max-inline-size: 22rem;
   border-radius: 10px;
   overflow: hidden;
