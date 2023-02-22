@@ -17,7 +17,7 @@
 
 /* calculator.js */
 .mainContainer {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -32,7 +32,7 @@
 .displayscreen-count-section {
   grid-column: 1/ 5;
   grid-row: 1 / 2;
-  background: rgb(122, 130, 136) none repeat scroll 0% 0%;
+  background: rgb(90, 92, 94) none repeat scroll 0% 0%;
 }
 
 .input-screen {
