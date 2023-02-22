@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 
-const Display = ({ total, next, operation }) => (
+const Display = ({ total, operation, next }) => (
   <div className="displayscreen-count-section">
     <span className="input-screen">
       {total}
-      {next}
       {operation}
+      {next}
     </span>
 
   </div>
@@ -13,13 +13,13 @@ const Display = ({ total, next, operation }) => (
 
 Display.propTypes = {
   total: PropTypes.number,
-  next: PropTypes.string,
   operation: PropTypes.string,
+  next: PropTypes.string,
 };
 Display.defaultProps = {
   total: 0,
-  next: null,
   operation: null,
+  next: null,
 };
 
 export default Display;

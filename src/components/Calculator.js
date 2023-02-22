@@ -21,7 +21,7 @@ const Calculator = () => {
   };
   return (
     <div className="mainContainer">
-      <Display next={next} total={total} operation={operation} />
+      <Display next={next} operation={operation} total={total} />
       <NumbersKeys handleClick={handleClick} />
       <Operators handleClick={handleClick} />
 
