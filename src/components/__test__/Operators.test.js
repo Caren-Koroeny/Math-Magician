@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import NumbersKeys from '../NumbersKeys';
+import Operators from '../Operators';
 
-it('renders Calculator correctly', () => {
-  const tree = renderer.create(<NumbersKeys />);
+it('renders operationskeys correctly', () => {
+  const tree = renderer.create(<Operators />);
   expect(tree).toMatchSnapshot();
 });
