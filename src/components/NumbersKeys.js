@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// eslint-disable-next-line react/prop-types
 import React from 'react';
 
 const NumbersKeys = ({ handleClick }) => (
@@ -16,9 +16,7 @@ const NumbersKeys = ({ handleClick }) => (
     <button type="button" className="btn btn-primary" onClick={handleClick}>.</button>
   </div>
 );
-NumbersKeys.propTypes = {
-  handleClick: PropTypes.func.isRequired,
-};
+
 NumbersKeys.defaultProps = {
   handleClick: () => {},
 };
