@@ -19,5 +19,8 @@ const NumbersKeys = ({ handleClick }) => (
 NumbersKeys.propTypes = {
   handleClick: PropTypes.func.isRequired,
 };
+NumbersKeys.defaultProps = {
+  handleClick: () => {},
+};
 
 export default NumbersKeys;
