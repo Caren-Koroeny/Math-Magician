@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders DisplayScreen correctly 1`] = `
+<div
+  className="displayscreen-count-section"
+>
+  <span
+    className="input-screen"
+  >
+    0
+  </span>
+</div>
+`;

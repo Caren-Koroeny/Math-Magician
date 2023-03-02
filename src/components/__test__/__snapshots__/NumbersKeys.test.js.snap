@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders operations correctly 1`] = `
+<div
+  className="allNumbers"
+>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="btn btn-primary col-span-2"
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    .
+  </button>
+</div>
+`;

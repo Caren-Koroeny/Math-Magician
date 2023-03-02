@@ -111,6 +111,10 @@ Open <a href="http://localhost:3000/">http://localhost:3000/</a> to view it in t
 
 👤 **Caren Koroeny**
 
+- GitHub: [@githubhandle](https://github.com/Caren-Koroeny)
+- Twitter: [@twitterhandle](https://twitter.com/home)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/caren-siya-a89712180)
+
 - 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
